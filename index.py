@@ -6,7 +6,9 @@ app = Flask(__name__)
 def principal():
     return render_template('index.html')
 
-@app.route
+@app.route('/proyectos')
+def proyectos():
+    return render_template('proyectos.html')
 
 @app.route('/contacto')
 def contacto():
