@@ -10,6 +10,10 @@ def principal():
 def proyectos():
     return render_template('proyectos.html')
 
+@app.route('/curriculum')
+def curriculum():
+    return render_template('curriculum.html')
+
 @app.route('/contacto')
 def contacto():
     return render_template('contacto.html')

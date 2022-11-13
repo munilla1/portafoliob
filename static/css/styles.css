@@ -1,0 +1,232 @@
+
+
+.dina4 {
+    background-color: lightblue;
+    height: 842px;
+    width: 595px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.contenedor_izquierda {
+    float: left;
+    height: 842px;
+    width: 310px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.imagen_cara {
+    float: left;
+    padding-right: 10px;
+    width: 130px;
+    height: 150px;
+}
+
+.nombre {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.contacto {
+    font-size: 12px;
+}
+
+.icono1 {
+    float: left;
+    padding-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.icono2 {
+    float: left;
+    padding-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.icono3 {
+    float: left;
+    padding-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.presentacion {
+    margin: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.mis_habilidades {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+.skills:not(:last-child) {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.detalles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.menu {
+    position: relative;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 50px;
+    background-color: blueviolet;
+}
+
+/*animacion*/
+
+#html_menu {
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra {
+    100%{
+        width: 80%;
+    }
+}
+
+#python_menu {
+    animation: python-barra 2s forwards;
+}
+
+@keyframes python-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+#javascript_menu {
+    animation: javascript-barra 2s forwards;
+}
+
+@keyframes javascript-barra {
+    100%{
+        width: 60%;
+    }
+}
+
+#css_menu {
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+#bootstrap_menu {
+    animation: bootstrap-barra 2s forwards;
+}
+
+@keyframes bootstrap-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+#node_menu {
+    animation: node-barra 2s forwards;
+}
+
+@keyframes node-barra {
+    100%{
+        width: 60%;
+    }
+}
+
+#express_menu {
+    animation: express-barra 2s forwards;
+}
+
+@keyframes express-barra {
+    100%{
+        width: 60%;
+    }
+}
+
+#mysql_menu {
+    animation: mysql-barra 2s forwards;
+}
+
+@keyframes mysql-barra {
+    100%{
+        width: 70%;
+    }
+}
+
+.contenedor_derecha {
+    float: right;
+    width: 280px;
+}
+
+.formacion {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.flecha {
+    float: left;
+    width: 11px;
+    height: 11px;
+    padding-right: 4px;
+}
+
+.primera_formacion {
+    text-align: left;
+    font-size: 15px;
+}
+
+.segunda_formacion {
+    text-align: left;
+    font-size: 15px;
+}
+
+.competencias {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.ofimatica .equipo .ingles .aprendizaje .creatividad .critica .github .pagina{
+    text-align: left;
+    font-size: 15px;
+}
+
+.datos {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.descargable {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: black;
+    padding: 2px 5px;
+    border: 2px solid;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-left: 80px;
+}
