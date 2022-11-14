@@ -1,22 +1,8 @@
 
 
-.dina4 {
-    background-color: lightblue;
-    height: 842px;
-    width: 595px;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-}
 
-.contenedor_izquierda {
-    float: left;
-    height: 842px;
-    width: 310px;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-}
+
+
 
 .imagen_cara {
     float: left;
@@ -200,6 +186,10 @@
 .segunda_formacion {
     text-align: left;
     font-size: 15px;
+}
+
+.flecha{
+    margin-left: 6px;
 }
 
 .competencias {

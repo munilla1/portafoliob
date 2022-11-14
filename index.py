@@ -10,9 +10,9 @@ def principal():
 def proyectos():
     return render_template('proyectos.html')
 
-@app.route('/curriculum')
-def curriculum():
-    return render_template('curriculum.html')
+@app.route('/curriculumb')
+def curriculumb():
+    return render_template('curriculumb.html')
 
 @app.route('/contacto')
 def contacto():
@@ -20,6 +20,5 @@ def contacto():
 
 if __name__ == "__main__":
     
-    app.run(host='0.0.0.0',
-            debug=True,
+    app.run(debug=True,
             port=8080)
